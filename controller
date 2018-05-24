@@ -1,1 +1,53 @@
-2
+package controller;
+
+import model.Produto;
+import view.ListaProdutosFrame;
+
+/**
+ * Created by aluno on 24/05/2018.
+ */
+public class Controlador{
+    private Produto[] estoque;
+    private int posEstoque;
+    private ListaProdutosFrame produtosCadastrados;
+
+    public void cadastrarProduto(){
+
+    }
+    public boolean inserirProduto(){
+        return true;
+    }
+    public void atualizarProduto(){
+
+    }
+    public void listarProdutos(){
+
+    }
+    public void editarProdutos(){
+
+    }
+
+    public Produto[] getEstoque() {
+        return estoque;
+    }
+
+    public void setEstoque(Produto[] estoque) {
+        this.estoque = estoque;
+    }
+
+    public int getPosEstoque() {
+        return posEstoque;
+    }
+
+    public void setPosEstoque(int posEstoque) {
+        this.posEstoque = posEstoque;
+    }
+
+    public ListaProdutosFrame getProdutosCadastrados() {
+        return produtosCadastrados;
+    }
+
+    public void setProdutosCadastrados(ListaProdutosFrame produtosCadastrados) {
+        this.produtosCadastrados = produtosCadastrados;
+    }
+}
