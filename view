@@ -1,1 +1,27 @@
+package view;
 
+/**
+ * Created by aluno on 24/05/2018.
+ */
+public class ListaProdutosFrame {
+}
+
+package view;
+
+/**
+ * Created by aluno on 24/05/2018.
+ */
+public class LojaFrame {
+    public static void main(String args[]){
+
+    }
+}
+
+package view;
+
+/**
+ * Created by aluno on 24/05/2018.
+ */
+public class ProdutoFrame {
+
+}
