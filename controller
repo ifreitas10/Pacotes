@@ -1,29 +1,66 @@
 package controller;
 
 import model.Produto;
+import model.Venda;
 import view.ListaProdutosFrame;
+import view.ListaVendasFrame;
 
 /**
  * Created by aluno on 24/05/2018.
  */
 public class Controlador{
     private Produto[] estoque;
+    private Venda[] vendas;
     private int posEstoque;
+    private int posVendas;
     private ListaProdutosFrame produtosCadastrados;
+    private ListaVendasFrame listaVendas;
 
     public void cadastrarProduto(){
 
     }
+
     public boolean inserirProduto(){
         return true;
     }
+
     public void atualizarProduto(){
 
     }
+
     public void listarProdutos(){
 
     }
+
     public void editarProdutos(){
+
+    }
+
+    public void realizarNovaVenda(){
+
+    }
+
+    public boolean inserirVenda(){
+        return true;
+    }
+
+    public void adicionarItem(){
+
+    }
+
+    public boolean inserirProdutoVendido(){
+        return true;
+    }
+
+    public void listarVendas(){
+
+    }
+
+    public double calcularTotalVendas(double venda){
+        return venda;
+    }
+
+    public void listarProdutosVendidos(){
 
     }
 
