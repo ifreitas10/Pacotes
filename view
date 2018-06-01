@@ -1,27 +1,105 @@
 package view;
 
-/**
- * Created by aluno on 24/05/2018.
- */
 public class ListaProdutosFrame {
 }
 
 package view;
 
-/**
- * Created by aluno on 24/05/2018.
- */
-public class LojaFrame {
-    public static void main(String args[]){
+import controller.Controlador;
+
+import javax.swing.*;
+
+public class ListaVendasFrame {
+    private JList vendasList;
+    private JMenuItem itensVendaMenuItem;
+    private JMenuItem novaVendaMenuItem;
+    private JButton novaVendaButton;
+    private JButton okButton;
+    private JTextField totalTextField;
+    private JButton itensVendaButton;
+    private Controlador controlador;
+
+    public void carregarDados(){
+
+    }
+    public void novaVendaButtonActionPerformed(){
+
+    }
+    public void refresh(){
+
+    }
+    public void itensVendaButtonActionPerformed(){
 
     }
 }
 
 package view;
 
-/**
- * Created by aluno on 24/05/2018.
- */
-public class ProdutoFrame {
+import controller.Controlador;
 
+import javax.swing.*;
+
+public class LojaFrame {
+    private JButton listaProdutosButton;
+    private JButton novoProdutoButton;
+    private JButton listaVendasButton;
+    private JButton novaVendaButton;
+    private Controlador controlador;
+
+    public static void main(String[] args) {
+
+    }
+
+    public void novoProdutoButtonActionPerfomed(){
+
+    }
+    public void listaProdutosButtonActionPerfomed(){
+
+    }
+    public void novaVendaButtonActionPerfomed(){
+
+    }
+    public void listaVendasButtonActionPerfomed(){
+
+    }
 }
+
+package view;
+
+public class ProdutoVenda {
+}
+
+package view;
+
+import controller.Controlador;
+import model.Venda;
+
+import javax.swing.*;
+
+public class VendaFrame {
+    private JTextField totalTextField;
+    private JButton okButton;
+    private JButton cancelarButton;
+    private JButton novoProdutoButton;
+    private JList itensList;
+    private Venda venda;
+    private Controlador controlador;
+    private boolean novaVenda;
+
+    private void setControlador(){
+
+    }
+
+    private void okButtonActionPerformed(){
+
+    }
+
+    private void novoProdutoButtonActionPerformed(){
+
+    }
+
+    private void carregarDados(){
+
+    }
+}
+
