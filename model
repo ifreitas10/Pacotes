@@ -1,23 +1,22 @@
 package model;
 
-/**
- * Created by aluno on 24/05/2018.
- */
-public class Produto{
-    private String nome;
-    private double preco;
+public class Produto {
+}
 
-    public String getNome(String nome){
-        return nome;
-    }
+package model;
 
-    public void setNome(){
+import view.ProdutoVenda;
 
+public class Venda {
+    private int id;
+    private ProdutoVenda produtosVendidos;
+    private double total;
+    private int pos;
+
+    public int getId(int Id){
+        return Id;
     }
-    public double getPreco(double preco){
-        return preco;
-    }
-    public void setPreco(){
+    public void setId(){
 
     }
     public String toString(){
